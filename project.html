@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Update</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .project {
+      height: 300px;
+      width: 80%;
+      max-width: 700px;
+      background-color: aqua;
+      font-style: italic;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .button {
+      margin-top: 30px;
+      height: 50px;
+      width: 120px;
+      background-color: #0055ff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #003fcc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="project">
+      <h1>Northbridge College is working on a new project!<br>Please keep checking for updates. Thank you!</h1>
+    </div>
+    <button class="button" onclick="history.back()">Back</button>
+  </div>
+</body>
+</html>

@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link href="page2.html"> 
+   <link href="course.html">
+   <link href="news.html">
+   <link href="project.html">
+    <!-- Styles -->
+<style>
+#chartdiv {
+  width: 100%;
+  height: 500px;
+}
+</style>
+<!-- <style>
+.card:hover {
+  transform: scale(1.05);
+}
+</style
+  </head>
+  <body> -->
+    <!-- Start your project here-->
+
+    <!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button
+      data-mdb-collapse-init
+      class="navbar-toggler"
+      type="button"
+      data-mdb-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Navbar brand -->
+      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+        <img
+          src="https://cmsv2-assets.apptegy.net/uploads/20272/logo/23121/logo_Northbridge-web.png"
+          height="30"
+          alt="logo_Northbridge-web"
+          loading="lazy"
+        />
+      </a>
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page2.html">Admission Enquiry</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="course.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="project.html">Projects</a>
+        </li>
+         <li class="nav-item">
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-mdb-ripple-init data-mdb-modal-init data-mdb-target="#accounts">
+Account
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="accounts" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button type="button" class="btn-close" data-mdb-ripple-init data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body"><form>
+  <!-- Email input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="email" id="form2Example1" class="form-control" />
+    <label class="form-label" for="form2Example1">Email address</label>
+  </div>
+
+  <!-- Password input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="password" id="form2Example2" class="form-control" />
+    <label class="form-label" for="form2Example2">Password</label>
+  </div>
+
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+      <!-- Checkbox -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+        <label class="form-check-label" for="form2Example34"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+      <!-- Simple link -->
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <!-- Submit button -->
+  <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  <!-- Register buttons -->
+  <div class="text-center">
+    <p>Not a member? <a href="#!">Register</a></p>
+    <p>or sign up with:</p>
+    <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button  data-mdb-ripple-init type="button" class="btn btn-secondary btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form></div>
+      <div class="modal-footer">
+     
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+      </ul>
+      <!-- Left links -->
+    </div>
+    <!-- Collapsible wrapper -->
+
+    <!-- Right elements -->
+    <div class="d-flex align-items-center">
+      <!-- Icon -->
+      <a class="text-reset me-3" href="#">
+        <!-- <i class="fas fa-shopping-cart"></i> -->
+      </a>
+      </div>
+    </div>
+    <!-- Right elements -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+
+ <!-- Carousel wrapper -->
+<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
+  <!-- Indicators -->
+  <div class="carousel-indicators">
+    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- Inner -->
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1562774053-701939374585?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D" class="d-block w-100 img-fluid carousel-image" alt="Sunset Over the City" />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Welcome to Northbridge College</h1>
+        <h5>Empowering the next generation of leaders in Technology & Business.</h5>
+        <h4>Admission open - Apply Now!</h4>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="https://wallpapercat.com/w/full/5/d/0/914070-3840x2160-desktop-4k-library-wallpaper-image.jpg" class="d-block w-100 img-fluid carousel-image" alt="Library" />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Read. Learn. Grow.</h1>
+        <h3>Welcome to the library - Where Knowledge lives</h3>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="https://www.custom-conference-tables.com/wp-content/uploads/2020/05/harvard-university-large-conference-room-table.jpg" class="d-block w-100 img-fluid carousel-image" alt="Conference Room" />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Where Ideas Turn Into Inventions</h1>
+        <p>Excellence in Teaching, Innovation in Research</p>
+      </div>
+    </div>
+  </div>
+  <!-- Inner -->
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel wrapper -->
+
+<!-- Responsive Styling -->
+<style>
+  .carousel-image {
+    height: 720px;
+    object-fit: cover;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-image {
+      height: 300px;
+    }
+
+    .carousel-caption h1 {
+      font-size: 1.5rem;
+    }
+
+    .carousel-caption h4,
+    .carousel-caption h5,
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+
+    .carousel-caption {
+      bottom: 10%;
+    }
+  }
+</style>
+
+<!-- Advertisement -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+  box-sizing: border-box;
+">
+  <!-- Text Content -->
+  <div style="
+    flex: 1 1 100%;
+    max-width: 100%;
+    padding: 10px;
+  ">
+    <h1 style="margin-bottom: 10px; font-size: 2rem; text-align: center;">Cool..Smart..Systematic..</h1>
+    <p style="
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0 10px;
+      text-align: justify;
+    ">
+      <strong>Northbridge College</strong>, based in Mumbai, is a progressive institution committed to delivering high-quality education in science, technology, and innovation. The college operates through several specialized schools such as Innovative Studies, Continuing Education, Mass Education, and Professional Studies, fostering entrepreneurship and cutting-edge knowledge.
+      <br><br>
+      Northbridge emphasizes a blend of theoretical learning and hands-on experience, preparing students for careers in India and globally. With strategic affiliations and collaborations with reputed universities and industry partners, the college provides students access to advanced resources and professional networks.
+    </p>
+  </div>
+
+  <!-- Image iske liye  -->
+  <div style="
+    flex: 1 1 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+  ">
+    <img src="https://media.istockphoto.com/id/639359406/photo/students-studying-in-college-library.jpg?s=612x612&w=0&k=20&c=8ItJkQbEDQPMRkjqxCCpCKIBThJ6dZ2HLWfwQ4Zj470=" 
+         alt="College Students"
+         style="
+           width: 100%;
+           max-width: 500px;
+           height: auto;
+           border-radius: 10px;
+         ">
+  </div>
+</div>
+
+
+
+<h2 style="text-align: center; margin-top: 30px; color: black;"> Top Latest courses</h2>
+ <!-- grid -->
+<!-- testimonial -->
+<div class="container-fluid">
+  <div class="row">
+    <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex justify-content-center flex-wrap">
+
+           <!-- CARD 1: Computer Science -->
+<div class="col-12 col-sm-6 col-lg-3 my-3">
+  <div class="card h-100">
+    <img style="height: 250px;" src="https://i.pinimg.com/736x/40/ce/e2/40cee2ae407de99af49bea4ff771bcff.jpg" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+      <h5 class="card-title">Computer Science</h5>
+      <p class="card-text">Training | Placement | Live Project<br>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+       
+        </p>
+      <button type="button" class="btn btn-primary btn-sm" data-mdb-modal-init data-mdb-target="#exampleModal1">View More</button>
+    </div>
+  </div>
+
+  <!-- Modal 1 -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title" id="exampleModal1Label">Computer Science</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe 
+              src="https://www.youtube.com/embed/j7iXyUdJTHE" 
+              title="YouTube video" 
+              allowfullscreen 
+              frameborder="0">
+            </iframe>
+          </div>
+
+          <div class="card mt-4">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs justify-content-center">
+                <li class="nav-item"><p id="syllabus" class="nav-link active">SYLLABUS</p></li>
+                <li class="nav-item"><p id="demoClass" class="nav-link">DEMO CLASS</p></li>
+                <li class="nav-item"><p id="placementInfo" class="nav-link">PLACEMENT INFO</p></li>
+              </ul>
+            </div>
+            <div class="card-body" id="webdevlopmentCardBody">
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <!-- CARD 2: Cyber Security -->
+<div class="col-12 col-sm-6 col-lg-3 my-3">
+  <div class="card h-100">
+    <img style="height: 250px;" src="https://beaconvcfund.sgp1.digitaloceanspaces.com/2024/10/Cybersecurity-banner_gif-resize.gif" class="card-img-top" alt="...">
+    <div class="card-body text-center">
+      <h5 class="card-title">Cyber Security</h5>
+      <p class="card-text">Training | Placement | Live Project<br>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+        <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+      </p>
+      <button type="button" class="btn btn-primary btn-sm" data-mdb-modal-init data-mdb-target="#exampleModal2">View More</button>
+    </div>
+  </div>
+
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-dark text-white">
+          <h5 class="modal-title" id="exampleModal2Label">Cyber Security</h5>
+          <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <iframe
+            width="770"
+            height="370"
+            src="https://www.youtube.com/embed/ooJSgsB5fIE"
+            title="YouTube video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+
+          <div class="card mt-4">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item"><p id="toolsTab" class="nav-link active" style="cursor:pointer;">TOOLS</p></li>
+                <li class="nav-item"><p id="vulnerabilitiesTab" class="nav-link" style="cursor:pointer;">VULNERABILITIES</p></li>
+                <li class="nav-item"><p id="projectsTab" class="nav-link" style="cursor:pointer;">PROJECTS</p></li>
+              </ul>
+            </div>
+            <div class="card-body" id="cyberCardBody">
+              <!-- Default: TOOLS content -->
+              <ul>
+                <li><strong>Wireshark:</strong> Network traffic analysis and packet inspection tool used to capture and interactively browse network traffic.</li>
+                <li><strong>Burp Suite:</strong> Comprehensive web vulnerability scanner and penetration testing framework.</li>
+                <li><strong>Kali Linux:</strong> A Linux distribution packed with hundreds of pre-installed ethical hacking tools.</li>
+                <li><strong>Metasploit Framework:</strong> Powerful platform for developing, testing, and executing exploit code.</li>
+                <li><strong>Nmap:</strong> Network scanner used to discover hosts and services on a network.</li>
+                <li><strong>John the Ripper:</strong> Fast password cracker supporting many hash types and password formats.</li>
+                <li><strong>OWASP ZAP:</strong> Open-source web application security scanner helping find vulnerabilities automatically.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Tab switching logic for Cyber Security modal
+  const toolsTab = document.getElementById('toolsTab');
+  const vulnerabilitiesTab = document.getElementById('vulnerabilitiesTab');
+  const projectsTab = document.getElementById('projectsTab');
+  const cyberCardBody = document.getElementById('cyberCardBody');
+
+  function clearActiveTabs() {
+    toolsTab.classList.remove('active');
+    vulnerabilitiesTab.classList.remove('active');
+    projectsTab.classList.remove('active');
+  }
+
+  toolsTab.addEventListener('click', () => {
+    clearActiveTabs();
+    toolsTab.classList.add('active');
+    cyberCardBody.innerHTML = `
+      <ul>
+        <li><strong>Wireshark:</strong> Network traffic analysis and packet inspection tool used to capture and interactively browse network traffic.</li>
+        <li><strong>Burp Suite:</strong> Comprehensive web vulnerability scanner and penetration testing framework.</li>
+        <li><strong>Kali Linux:</strong> A Linux distribution packed with hundreds of pre-installed ethical hacking tools.</li>
+        <li><strong>Metasploit Framework:</strong> Powerful platform for developing, testing, and executing exploit code.</li>
+        <li><strong>Nmap:</strong> Network scanner used to discover hosts and services on a network.</li>
+        <li><strong>John the Ripper:</strong> Fast password cracker supporting many hash types and password formats.</li>
+        <li><strong>OWASP ZAP:</strong> Open-source web application security scanner helping find vulnerabilities automatically.</li>
+      </ul>
+    `;
+  });
+
+  vulnerabilitiesTab.addEventListener('click', () => {
+    clearActiveTabs();
+    vulnerabilitiesTab.classList.add('active');
+    cyberCardBody.innerHTML = `
+      <ul>
+        <li><strong>SQL Injection:</strong> Exploiting vulnerable database queries to access or manipulate data.</li>
+        <li><strong>Cross-Site Scripting (XSS):</strong> Injecting malicious scripts into trusted websites viewed by other users.</li>
+        <li><strong>Phishing Attacks:</strong> Deceptive attempts to acquire sensitive info by masquerading as trustworthy entities.</li>
+        <li><strong>Man-in-the-Middle (MitM):</strong> Intercepting communications between two parties to steal or alter data.</li>
+        <li><strong>Denial of Service (DoS):</strong> Overloading systems or networks to make services unavailable.</li>
+        <li><strong>Zero-Day Vulnerabilities:</strong> Unknown flaws exploited before patches are available.</li>
+        <li><strong>Malware:</strong> Malicious software including viruses, ransomware, and spyware.</li>
+      </ul>
+    `;
+  });
+
+  projectsTab.addEventListener('click', () => {
+    clearActiveTabs();
+    projectsTab.classList.add('active');
+    cyberCardBody.innerHTML = `
+      <ul>
+        <li><strong>Network Security Simulation:</strong> Build and test firewalls and intrusion detection systems.</li>
+        <li><strong>Vulnerability Assessment:</strong> Perform penetration testing on real-world applications.</li>
+        <li><strong>Phishing Awareness Campaign:</strong> Develop educational materials and simulated phishing emails.</li>
+        <li><strong>Malware Analysis:</strong> Analyze and classify malware samples in a controlled environment.</li>
+        <li><strong>Secure Coding Project:</strong> Implement security best practices in web or mobile app development.</li>
+      </ul>
+    `;
+  });
+</script>
+
+
+            <!-- CARD 3: Data Science -->
+            <div class="col-12 col-sm-6 col-lg-3 my-3">
+              <div class="card h-100">
+                <img style="height: 250px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4DPbCWpOag5nmQ8WVJQz7ha742vJosveUvg&s" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Data Science</h5>
+                  <p class="card-text"> Training | Placement | Project<br>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                  </p>
+                  
+                  <button type="button" class="btn btn-primary btn-sm view-more-btn" data-mdb-modal-init data-mdb-target="#exampleModal3">View More</button>
+
+                </div>
+              </div>
+
+                   <!-- Include this modal inside your main HTML body -->
+<div id="exampleModal3" class="modal fade" tabindex="-1" aria-labelledby="exampleModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header bg-success text-white">
+        <h5 class="modal-title" id="exampleModal3Label">Data Science</h5>
+        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!--  YouTube Video -->
+        <iframe width="100%" height="370" 
+          src="https://www.youtube-nocookie.com/embed/xN6dbHSbohk?si=yiuWhUuWf7RBhAUK" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen></iframe>
+
+        <!--  Tab Section -->
+        <div class="card mt-4">
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+              <li class="nav-item"><p class="nav-link active" style="cursor:pointer;">PYTHON</p></li>
+              <li class="nav-item"><p class="nav-link" style="cursor:pointer;">MACHINE LEARNING</p></li>
+              <li class="nav-item"><p class="nav-link" style="cursor:pointer;">PROJECTS</p></li>
+            </ul>
+          </div>
+          <div class="card-body" id="dataScince">
+            <!-- Default Tab Content -->
+            <h5>Comprehensive Python Training</h5>
+            <p>Dive deep into Python programming, covering essential libraries such as <strong>Pandas</strong>, <strong>NumPy</strong>, and <strong>Matplotlib</strong>.</p>
+            <ul>
+              <li>Python basics & advanced concepts</li>
+              <li>Data cleaning and preprocessing</li>
+              <li>Exploratory data analysis (EDA)</li>
+              <li>Real-world datasets and practice</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>  
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const tabContainer = document.querySelector('#exampleModal3 .nav.nav-tabs.card-header-tabs');
+    const tabs = tabContainer.querySelectorAll('p.nav-link');
+    const contentDiv = document.getElementById('dataScince');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        // Remove active from all tabs
+        tabs.forEach(t => t.classList.remove('active'));
+
+        // Set active on clicked tab
+        tab.classList.add('active');
+
+        // Update content
+        switch (tab.textContent.trim().toUpperCase()) {
+          case 'PYTHON':
+            contentDiv.innerHTML = `
+              <h5>Comprehensive Python Training</h5>
+              <p>Dive deep into Python programming, covering essential libraries such as <strong>Pandas</strong>, <strong>NumPy</strong>, and <strong>Matplotlib</strong>.</p>
+              <ul>
+                <li>Python basics & advanced concepts</li>
+                <li>Data cleaning and preprocessing</li>
+                <li>Exploratory data analysis (EDA)</li>
+                <li>Real-world datasets and practice</li>
+              </ul>
+            `;
+            break;
+
+          case 'MACHINE LEARNING':
+            contentDiv.innerHTML = `
+              <h5>Hands-On Machine Learning</h5>
+              <p>Build predictive models using regression, classification, clustering, and neural networks.</p>
+              <ul>
+                <li>Supervised & unsupervised learning</li>
+                <li>Model evaluation and tuning</li>
+                <li>Use of Scikit-learn and TensorFlow</li>
+                <li>Real project implementation</li>
+              </ul>
+            `;
+            break;
+
+          case 'PROJECTS':
+            contentDiv.innerHTML = `
+              <h5>Real-World Data Science Projects</h5>
+              <ul>
+                <li>Sentiment analysis on Twitter data</li>
+                <li>Sales forecasting with time series</li>
+                <li>Image classification using CNN</li>
+              </ul>
+              <a href="https://www.simplilearn.com/top-cyber-security-projects-article" class="btn btn-outline-success mt-3" target="_blank">
+                View Project Code on Simplilearn 
+              </a>
+            `;
+            break;
+        }
+      });
+    });
+  });
+</script>
+    
+<!-- </End of all> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- News And Announments -->
+ <div class="news-wrapper">
+  <style>
+    .news-wrapper {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f2f5;
+      padding: 40px 20px;
+    }
+
+    .news-section {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    .news-section h2 {
+      text-align: center;
+      color: #003366;
+      margin-bottom: 25px;
+      font-size: 2rem;
+    }
+
+    .news-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .news-item:last-child {
+      border-bottom: none;
+    }
+
+    .news-date {
+      min-width: 80px;
+      font-weight: bold;
+      color: #00509e;
+    }
+
+    .news-content h4 {
+      margin: 0;
+      color: #222;
+    }
+
+    .news-content p {
+      margin: 5px 0 0;
+      color: #555;
+      font-size: 0.95rem;
+    }
+
+    .news-badge {
+      display: inline-block;
+      background-color: red;
+      color: white;
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .news-item {
+        flex-direction: column;
+      }
+
+      .news-date {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+
+  <div class="news-section">
+    <h2>Latest News & Announcements</h2>
+
+    <div class="news-item">
+      <div class="news-date">Jun 10</div>
+      <div class="news-content">
+        <h4>Admissions Open for 2025 <span class="news-badge">New</span></h4>
+        <p>Northbridge College is now accepting applications for B.Tech and BBA programs. Apply before July 31.</p>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Jun 5</div>
+      <div class="news-content">
+        <h4>Campus Placement Drive Announced</h4>
+        <p>Top companies like Infosys, Wipro, and TCS are visiting our campus in August. Register by July 15.</p>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">May 29</div>
+      <div class="news-content">
+        <h4>Annual Tech Fest "InnovateX 2025"</h4>
+        <p>Get ready for the biggest tech event of the year! Hackathons, exhibitions, and guest talks.</p>
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">May 15</div>
+      <div class="news-content">
+        <h4>NAAC A+ Accreditation Achieved</h4>
+        <p>We’re proud to announce that Northbridge College has been awarded A+ grade in NAAC accreditation.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Accodian -->
+    <div class="row">
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button
+        data-mdb-collapse-init
+        class="accordion-button"
+        type="button"
+        data-mdb-target="#collapseOne"
+        aria-expanded="true" 
+        aria-controls="collapseOne"
+      >
+       <p style="font-size: larger;"> About us </p>
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-mdb-parent="#accordionExample">
+      <div class="accordion-body">
+       
+        <div class="row">
+  <div class="col-sm-6">
+    <div style="background: linear-gradient(to right, #f8f9fa, #e3f2fd);;" class="card">
+      <div class="card-body">
+        <h5 class="card-title">Our Mission</h5>
+        <p class="card-text">At Northbridge College, our mission is to empower the next generation of engineers with innovative thinking, strong ethical values, and real-world problem-solving skills. We strive to provide a transformative education through cutting-edge technology, industry-focused curriculum, and a nurturing academic environment. Our goal is to foster leadership, creativity, and lifelong learning to shape professionals who will contribute meaningfully to society and the global engineering landscape</p>
+        <!-- <a href="#" class="btn btn-primary" data-mdb-ripple-init>Go somewhere</a> -->
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div style="background: linear-gradient(to right, #f8f9fa, #e3f2fd);" class="card-body">
+        <h5 class="card-title"> Our Vision</h5>
+        <p class="card-text">To be a leading institution in engineering education and innovation, recognized globally for academic excellence, cutting-edge research, and community impact. At Northbridge College of Engineering, we envision creating a dynamic learning ecosystem that inspires students to become visionary engineers, ethical leaders, and responsible global citizens who drive sustainable progress and technological advancement.
+          To be a global hub for engineering excellence, driving transformative innovation
+
+
+        </p>
+        <!-- <a href="#" class="btn btn-primary" data-mdb-ripple-init>Go somewhere</a> -->
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>   
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button
+        data-mdb-collapse-init
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-target="#collapseTwo"
+        aria-expanded="false"
+        aria-controls="collapseTwo"
+      >
+       <p style="font-size: larger;"> Let's Connect You With The Right opportunities </p>
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-mdb-parent="#accordionExample">
+      <div class="accordion-body">
+        <img style="height: 350px; width: 350px;"
+  src="https://skillbez.com/img/Guarantee.webp"
+  class="img-fluid rounded"
+  alt="Townhouses and Skyscrapers"
+/>
+
+<img style="height: 350px; width: 350px;"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaguSlFnqbRoeN3CXBfPMybIOfN4wYp5NOAA&s"
+  class="img-fluid rounded-circle"
+  alt="Townhouses and Skyscrapers"
+/>
+
+<img style="height: 350px; width: 350px;"
+  src="https://www.galgotiasuniversity.edu.in/public/uploads/media/93nb74Uc3LDKEUqwmrz3OCgkZeikKGIbeB6j6US9.webp"
+  class="img-fluid rounded-pill"
+  alt="Townhouses and Skyscrapers"
+/>
+
+<img style="height: 350px; width: 350px;"
+  src="https://media.assettype.com/outlookbusiness/import/uploadimage/library/16_9/16_9_5/IMAGE_1643523763.jpg?w=801&auto=format%2Ccompress&fit=max&format=webp&dpr=1.0"
+  class="img-fluid rounded-pill"
+  alt="Townhouses and Skyscrapers"
+/>
+
+<img style="height: 350px; width: 300px;"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnFvlbZvS0lD_mBH82EIUkKrF6avwBWXzx8Q&s"
+  class="img-fluid rounded-pill"
+  alt="Townhouses and Skyscrapers"
+/>
+
+
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button
+        data-mdb-collapse-init
+        class="accordion-button collapsed"
+        type="button"
+        data-mdb-target="#collapseThree"
+        aria-expanded="false"
+        aria-controls="collapseThree"
+      >
+         <p style="font-size: larger;">Placement Of The Year </p>
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-mdb-parent="#accordionExample">
+      <div class="accordion-body">
+        
+              <div id="chartdiv"></div>
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    
+    
+    <!-- map -->
+     <div class="row mt-4">
+
+ <div class="col-12 col-md-7 bg-primary d-flex justify-content-center mb-4 mb-md"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7535.275506579952!2d72.86784514214123!3d19.21101797808596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b739ce450b55%3A0x5cd9559c542442c8!2sKandivali%2C%20Thakur%20Village%2C%20Kandivali%20East%2C%20Mumbai%2C%20Maharashtra!5e1!3m2!1sen!2sin!4v1748868082287!5m2!1sen!2sin" class="rounded" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+ <div class="col-12 col-md-5  d-flex justify-content-center"><form style="width: 26rem;">
+  <!-- Name input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="text" id="form4Example1" class="form-control" />
+    <label class="form-label" for="form4Example1">Name</label>
+  </div>
+
+  <!-- Email input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <input type="email" id="form4Example2" class="form-control" />
+    <label class="form-label" for="form4Example2">Email address</label>
+  </div>
+
+  <!-- Message input -->
+  <div data-mdb-input-init class="form-outline mb-4">
+    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+    <label class="form-label" for="form4Example3">Message</label>
+  </div>
+
+  <!-- Checkbox -->
+  <div class="form-check d-flex justify-content-center mb-4">
+    <input
+      class="form-check-input me-2"
+      type="checkbox"
+      value=""
+      id="form4Example4"
+      checked
+    />
+    <label class="form-check-label" for="form4Example4">
+      Send me a copy of this message
+    </label>
+  </div>
+
+  <!-- Submit button -->
+  <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Send</button>
+</form></div>
+
+<!-- testimonial -->
+<div class="row">
+  <div id="carouselExampleControls" class="carousel slide" data-mdb-ride="carousel" data-mdb-carousel-init>
+    <div class="carousel-inner">
+
+      <!-- First Testimonial -->
+      <div class="carousel-item active">
+        <div style="height: 400px; width: 100%; 
+                    background-image: url('https://cdn.wallpapersafari.com/35/47/5BrQhk.jpg'); 
+                    background-size: cover; 
+                    background-position: center; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    padding: 20px;">
+          <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                     color: white; 
+                     background: rgba(red, green, blue, alpha); 
+                     padding: 20px; 
+                     border-radius: 10px; 
+                     text-align: center;">
+            Choosing Northbridge College of Science and Technology was one of the best decisions of my life. The college not only gave me a solid academic foundation in computer science but also helped me grow personally and professionally. The faculty members are highly supportive and knowledgeable, always encouraging innovation and hands-on learning. The campus is modern, well-equipped, and full of opportunities – from tech clubs to industry-driven workshops and internships. Thanks to Northbridge, I feel confident and career-ready!
+            <br><br>
+            — Aarav Mehta, B.Tech Computer Science (Batch of 2024) 
+            <img style="height: 160px; width: 160px; border-radius: 50%; margin-left: 200px;" src="https://media.istockphoto.com/id/1391718981/photo/portrait-of-a-confident-young-businessman-standing-with-his-arms-crossed-in-an-office.jpg?s=612x612&w=0&k=20&c=eF_0QCtw-Y8Q2c4_xQe6KTkcSPiGCT6qBf6nuavE2Dg=">
+            <br>
+           
+              <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                  <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                      <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+          </h4>
+          
+
+        </div>
+      </div>
+
+      <!-- Second Testimonial -->
+      <div class="carousel-item">
+        <div style="height: 400px; width: 100%; 
+                    background-image: url('https://cdn.wallpapersafari.com/35/47/5BrQhk.jpg'); 
+                    background-size: cover; 
+                    background-position: center; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    padding: 20px;">
+          <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                     color: white; 
+                     background: rgba(red, green, blue, alpha); 
+                     padding: 20px; 
+                     border-radius: 10px; 
+                     text-align: center;">
+            Northbridge College has been an incredible journey for me. The curriculum is truly industry-focused, and the practical exposure I gained through projects, labs, and tech events was unmatched. The mentorship from faculty and the supportive environment helped me secure an internship even before my final year. I’m proud to be a part of an institution that’s shaping future tech leaders.
+            <br><br>
+            — Priya Nair, Diploma in Cybersecurity (Batch of 2023)
+
+           <img style="height: 160px; width: 160px; border-radius: 50%; margin-left: 200px;" src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTA4L3Jhd3BpeGVsX29mZmljZV8zNV9wb3J0cmFpdF9vZl9hX2JlYXV0aWZ1bF9zbWlsaW5nX3lvdW5nX2luZGlhbl81MzIwNjY3OC1mZDE4LTQ3NmMtYWIxZS01YTYzZGMyMWI3YzIucG5n.png">
+            <br>
+           
+              <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                  <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                      <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+          </h4>
+        </div>
+      </div>
+
+      <!-- Third Testm.. -->
+      <div class="carousel-item">
+        <div style="height: 400px; width: 100%; 
+                    background-image: url('https://cdn.wallpapersafari.com/35/47/5BrQhk.jpg'); 
+                    background-size: cover; 
+                    background-position: center; 
+                    display: flex; 
+                    align-items: center; 
+                    justify-content: center; 
+                    padding: 20px;">
+          <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+                     color: white; 
+                     background: rgba(red, green, blue, alpha); 
+                     padding: 20px; 
+                     border-radius: 10px; 
+                     text-align: center;">
+            Studying at Northbridge College has been a transformative experience. The blend of academic rigor, modern infrastructure, and career guidance helped me discover my strengths in Data Science. The college’s focus on innovation and skill development gave me the confidence to work on real-world projects and participate in national-level hackathons. I highly recommend it to anyone passionate about technology.
+            <br><br>
+            — Rohan Kulkarni, Postgraduate Diploma in Data Science (Batch of 2023)
+           <img style="height: 160px; width: 160px; border-radius: 50%; margin-left: 200px;" src="https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=">
+            <br>
+           
+              <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                  <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                    <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+                      <i style="color: goldenrod;" class="fa-solid fa-star"></i>
+          </h4>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Carousel Controls -->
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-mbd-slide="prev">
+
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-mbd-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+  <!-- footer -->
+   <!-- Footer -->
+<!-- <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+ Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span  style="color: black;" >Get connected with me on social networks:</span>
+    </div>
+
+    <!-- Right -->
+    <div>
+      </a>
+      <a href="https://x.com/Kunalthakur_18?s=09" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/kunal-kumar-088b19300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.hackerrank.com/profile/kunal_cse27" class="me-4 text-reset">
+        <i class="fab fa-hackerrank"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  
+<!-- what does we offers -->
+<div style="
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+  font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+  color: #212529;
+">
+
+  <!-- Video Container -->
+  <div style="flex: 1 1 320px; max-width: 560px;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.15);">
+      <iframe 
+        src="https://www.youtube.com/embed/-Y4MOsmy9OQ?si=2hIsmvqjCZyp-B3c" 
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+      </iframe>
+    </div>
+  </div>
+
+  <!-- Text Section -->
+  <div style="flex: 1 1 320px; max-width: 600px;">
+    <h1 style="margin-top: 0; font-size: 2rem; color: #0d47a1;"> What Does Northbridge College Offer?</h1>
+    <p style="font-size: 1.1rem; line-height: 1.7;">
+      <strong> Certificate Courses:</strong> Short-term skill-based training in tech, design, and business.<br><br>
+      <strong> Diploma Programs:</strong> Specialized one-year or two-year programs in emerging fields.<br><br>
+      <strong> Postgraduate Courses:</strong> Advanced studies with research or industry-driven curriculum.<br><br>
+    </p>
+  </div>
+</div>
+
+
+
+  <!-- Footer -->
+<style>
+  .footer-links-section {
+    background-image: url('https://t3.ftcdn.net/jpg/04/91/04/52/360_F_491045263_MlMhthp1Fz1irD3wxVpWSQAKe9BIy1aD.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+  }
+
+  .footer-links-section a,
+  .footer-links-section p,
+  .footer-links-section h6,
+  .footer-links-section h5,
+  .footer-links-section i {
+    color: white !important;
+  }
+
+  .footer-links-section a:hover {
+    text-decoration: underline;
+    color: #00eaff !important;
+  }
+</style>
+
+<!-- Section: Links -->
+<section class="footer-links-section">
+  <div class="container text-center text-md-start mt-5">
+    <div class="row mt-3">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">
+          <img src="https://cmsv2-assets.apptegy.net/uploads/20272/logo/23121/logo_Northbridge-web.png" style="height: 50px; width: 50px;">
+          <h5>Northbridge College</h5>
+        </h6>
+        <p>
+          The college offers courses in areas such as Software Engineering, Hardware Engineering and Networking and System Security
+        </p>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Vision</h6>
+        <p><a href="#!" class="text-reset">Trust is the soil.</a></p>
+        <p><a href="#!" class="text-reset">Teaching is the seed.</a></p>
+        <p><a href="#!" class="text-reset">Truth is what blooms.</a></p>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Mission</h6>
+        <p><a href="#!" class="text-reset">Read</a></p>
+        <p><a href="#!" class="text-reset">Learn</a></p>
+        <p><a href="#!" class="text-reset">Grow</a></p>
+        <p><a href="#!" class="text-reset">Leadership</a></p>
+      </div>
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="fas fa-home me-3"></i> Mumbai, MH 400101, India</p>
+        <p><i class="fas fa-envelope me-3"></i> northbridge@info.in</p>
+        <p><i class="fas fa-phone me-3"></i> +21 850 33 244</p>
+        <p><i class="fas fa-print me-3"></i> +01 234 453 89</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Section: Links -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: whitesmoke">
+  ©2025 Designed by: Kunal Kumar (+91 8452930993). 
+</div>
+<!-- Footer -->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"> </script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    
+<!-- Resources -->
+<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
+<!-- Chart code -->
+<script>
+am5.ready(function() {
+
+
+// Create root element
+// https://www.amcharts.com/docs/v5/getting-started/#Root_element
+var root = am5.Root.new("chartdiv");
+
+
+// Set themes
+// https://www.amcharts.com/docs/v5/concepts/themes/
+root.setThemes([
+  am5themes_Animated.new(root)
+]);
+
+
+// Create chart
+// https://www.amcharts.com/docs/v5/charts/xy-chart/
+var chart = root.container.children.push(am5xy.XYChart.new(root, {
+  panX: false,
+  panY: false,
+  wheelX: "panX",
+  wheelY: "zoomX",
+  paddingLeft: 0,
+  layout: root.verticalLayout
+}));
+
+
+// Data
+var colors = chart.get("colors");
+
+var data = [{
+  country: "TCS",
+  visits: 725,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/united-states.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "WIPRO",
+  visits: 625,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/united-kingdom.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "TECH MAHINDRA",
+  visits: 602,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/china.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "OLA",
+  visits: 509,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/japan.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "ZOHO",
+  visits: 322,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/germany.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "INTEL",
+  visits: 214,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/france.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "PAYPAL",
+  visits: 204,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/india.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "UBER",
+  visits: 198,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/spain.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "BLINKIT",
+  visits: 165,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/netherlands.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "GOOGLE",
+  visits: 93,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/south-korea.svg",
+  columnSettings: { fill: colors.next() }
+}, {
+  country: "ZEPTO",
+  visits: 41,
+  icon: "https://www.amcharts.com/wp-content/uploads/flags/canada.svg",
+  columnSettings: { fill: colors.next() }
+}];
+
+
+// Create axes
+// https://www.amcharts.com/docs/v5/charts/xy-chart/axes/
+var xRenderer = am5xy.AxisRendererX.new(root, {
+  minGridDistance: 30,
+  minorGridEnabled: true
+})
+
+var xAxis = chart.xAxes.push(am5xy.CategoryAxis.new(root, {
+  categoryField: "country",
+  renderer: xRenderer,
+  bullet: function (root, axis, dataItem) {
+    return am5xy.AxisBullet.new(root, {
+      location: 0.5,
+      sprite: am5.Picture.new(root, {
+        width: 24,
+        height: 24,
+        centerY: am5.p50,
+        centerX: am5.p50,
+        src: dataItem.dataContext.icon
+      })
+    });
+  }
+}));
+
+xRenderer.grid.template.setAll({
+  location: 1
+})
+
+xRenderer.labels.template.setAll({
+  paddingTop: 20
+});
+
+xAxis.data.setAll(data);
+
+var yAxis = chart.yAxes.push(am5xy.ValueAxis.new(root, {
+  renderer: am5xy.AxisRendererY.new(root, {
+    strokeOpacity: 0.1
+  })
+}));
+
+
+// Add series
+// https://www.amcharts.com/docs/v5/charts/xy-chart/series/
+var series = chart.series.push(am5xy.ColumnSeries.new(root, {
+  xAxis: xAxis,
+  yAxis: yAxis,
+  valueYField: "visits",
+  categoryXField: "country"
+}));
+
+series.columns.template.setAll({
+  tooltipText: "{categoryX}: {valueY}",
+  tooltipY: 0,
+  strokeOpacity: 0,
+  templateField: "columnSettings"
+});
+
+series.data.setAll(data);
+
+
+// Make stuff animate on load
+// https://www.amcharts.com/docs/v5/concepts/animations/
+series.appear();
+chart.appear(1000, 100);
+
+}); // end am5.ready()
+</script>
+    <script src="logic.js"> </script>
+  </body>
+</html>

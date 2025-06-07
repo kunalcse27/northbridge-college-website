@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses | Northbridge College</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f7f7;
+      padding: 40px 20px;
+    }
+
+    .courses-section {
+      max-width: 1200px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .courses-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #003366;
+    }
+
+    .course-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .course-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .course-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .course-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .course-content {
+      padding: 20px;
+    }
+
+    .course-content h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      color: #222;
+    }
+
+    .course-content p {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .course-content a {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #ffb400;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+    }
+
+    .course-content a:hover {
+      background-color: #ffa200;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="courses-section">
+    <h2>Our Popular Courses</h2>
+    <div class="course-grid">
+
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901789.jpg" alt="Data Science">
+        <div class="course-content">
+          <h3>AI&ML</h3>
+          <p>Learn Python, Machine Learning, Pandas, NumPy, and real-world data projects.</p>
+         
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061964.jpg" alt="Full Stack Development">
+        <div class="course-content">
+          <h3>IT</h3>
+          <p>Master front-end & back-end development with React, Node.js, and databases.</p>
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="https://media.istockphoto.com/id/1389238948/photo/hand-touching-global-networking-on-data-connection-science-big-data-internet-technology.jpg?s=612x612&w=0&k=20&c=yCNE-b7vr1kD9iRAIH4Qq6J3ZRBalj_mCZVrNVsev50=" alt="Business Analytics">
+        <div class="course-content">
+          <h3>Data Science</h3>
+          <p>Use data tools and strategy to solve real business problems and make decisions.</p>
+         
+        </div>
+      </div>
+
+      <div class="course-card">
+        <img src="https://media.istockphoto.com/id/1339203360/photo/cyber-security-inscription-against-laptop-and-code.jpg?s=612x612&w=0&k=20&c=Tf9AB_vCLVO40ocTWRHN8DUDW5B9vSgtAxG1kRkWlJM=" alt="Cybersecurity">
+        <div class="course-content">
+          <h3>Cybersecurity</h3>
+          <p>Learn ethical hacking, network security, and safeguard systems from threats.</p>
+         
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
+
+</body>
+</html>
